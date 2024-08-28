@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "../Buttons/button"
 import Header from "../Header/Header"
-import { convertDate } from "../../../../utils/date";
+import { convertDate } from "../../../utils/date";
 
 //useState should be inside the components.
 //initial state and setter which begin with set
