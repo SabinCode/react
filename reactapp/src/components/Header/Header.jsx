@@ -6,7 +6,7 @@ function Header (){
             <nav>
         <NavLink to="/">HomePage</NavLink>
         <NavLink to="/About">About</NavLink>
-        <NavLink to="/Unsere-Teppiche">Unsere Teppiche</NavLink>
+        <NavLink to="/UnsereTeppiche">UnsereTeppiche</NavLink>
         <NavLink to="/ProductionSteps">ProductionSteps</NavLink>
         <NavLink to="/QUALITÄT">QUALITÄT</NavLink>
         {/* <NavLink to="/REINIGUNG-PFLEGE">REINIGUNG & PFLEGE</NavLink>
