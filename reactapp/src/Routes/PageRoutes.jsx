@@ -3,6 +3,7 @@ import HomePage from "../components/Home/HomePage";
 import AboutPage from "../components/About/About";
 import UnsereTeppichePage from "../components/UnsereTeppiche/UnsereTeppiche";
 import AxiosPage from "../components/Axios/Axios";
+import DayNine from "../components/DayNine/DayNine";
 function PageRoutes (){
 
     return (
@@ -12,6 +13,8 @@ function PageRoutes (){
             <Route path="/About" element={<AboutPage/>}/>
             <Route path="/UnsereTeppiche" element={<UnsereTeppichePage/>}/>
             <Route path="/Axios" element={<AxiosPage/>}/>
+            <Route path="/DayNine" element={<DayNine/>}/>
+            
         </Routes>
     </BrowserRouter>
     )

@@ -1,0 +1,11 @@
+.card {
+    border: 1px solid lightgray;
+    width: max-content;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: azure;
+    color: #3d3838;
+}
+
+/* for class . for id # */
