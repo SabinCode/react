@@ -4,6 +4,7 @@ import AboutPage from "../components/About/About";
 import UnsereTeppichePage from "../components/UnsereTeppiche/UnsereTeppiche";
 import AxiosPage from "../components/Axios/Axios";
 import DayNine from "../components/DayNine/DayNine";
+import ProductionSteps from "../components/ProductionSteps/ProductionSteps";
 function PageRoutes (){
 
     return (
@@ -14,6 +15,7 @@ function PageRoutes (){
             <Route path="/UnsereTeppiche" element={<UnsereTeppichePage/>}/>
             <Route path="/Axios" element={<AxiosPage/>}/>
             <Route path="/DayNine" element={<DayNine/>}/>
+            <Route path="/DayTen" element={<ProductionSteps/>} />
             
         </Routes>
     </BrowserRouter>
